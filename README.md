@@ -2,4 +2,4 @@
  Image before and after
 
 ## Credits
-- [Based on amirhosseinrahmati project](https://github.com/amirhosseinrahmati/before-after-comparison-slider)
+- [Based on W3School project](https://www.w3schools.com/howto/howto_js_image_comparison.asp)

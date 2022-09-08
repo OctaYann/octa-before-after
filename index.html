@@ -8,35 +8,33 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
 
-    <body style="min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 2rem">
-        <header><h1 style="text-align: center;">Avant après slider de comparaison</h1></header>
+    <body
+        style="
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+        "
+    >
+        <header>
+            <h1 style="text-align: center">
+                Avant après slider de comparaison
+            </h1>
+            <h2>Maintenir pour bouger le curseur</h2>
+        </header>
         <main>
-            <article id="before-after-example" class="bal-container">
-                <div class="bal-after">
-                    <img src="images/autumn.jpg" />
-                    <div class="bal-afterPosition afterLabel">Après</div>
+            <div class="img-comp-container example">
+                <div class="img-comp-img">
+                    <img src="/images/autumn.jpg" width="600" height="400" />
                 </div>
-
-                <div class="bal-before">
-                    <div class="bal-before-inset">
-                        <img src="images/spring.jpg" />
-                        <div class="bal-beforePosition beforeLabel">Avant</div>
-                    </div>
+                <div class="img-comp-img img-comp-overlay">
+                    <img src="/images/spring.jpg" width="600" height="400" />
                 </div>
-
-                <div class="bal-handle">
-                    <span class="handle-left-arrow"></span>
-                    <span class="handle-right-arrow"></span>
-                </div>
-            </article>
+            </div>
         </main>
 
         <script src="js/script.js"></script>
-
-        <script>
-            new BeforeAfter({
-                id: "#before-after-example",
-            });
-        </script>
     </body>
 </html>
