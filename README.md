@@ -2,4 +2,4 @@
  Image before and after
 
 ## Credits
-- [Based on Kunj codepen](https://codepen.io/kunj4u/pen/LYYZbzR)
+- [Based on amirhosseinrahmati project](https://github.com/amirhosseinrahmati/before-after-comparison-slider)
